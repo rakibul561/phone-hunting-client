@@ -1,15 +1,28 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { AuthContext } from '../Provider/AuthProvider';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const { user, logOut } = useContext(AuthContext); 
+  console.log(user?.email);
+
+  const handleLogout = () => {
+    logOut()
+      .then(() => {
+        // 
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+  };
 
   return (
     <nav className="relative bg-white shadow dark:bg-gray-800">
       <div className="container px-6 py-4 mx-auto md:flex md:justify-between md:items-center">
         <div className="flex items-center justify-between">
           <a href="#">
-           <h2>PhoneShop</h2>
+            <h2>PhoneShop</h2>
           </a>
 
           {/* Mobile menu button */}
@@ -62,44 +75,43 @@ const Navbar = () => {
           }`}
         >
           <div className="flex flex-col md:flex-row md:mx-6">
-            <Link 
-            to='/'
+            <Link
+              to="/"
               className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0"
-             
             >
               Home
             </Link>
             <Link
-            to='/about'
+              to="/about"
               className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0"
-              
             >
               About
             </Link>
             <Link
-            to='/product'
+              to="/product"
               className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0"
-              href="#"
             >
               Product
             </Link>
             <Link
-            to='/love'
+              to="/love"
               className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0"
-              href="#"
             >
               Wishlist
             </Link>
-            <Link
-            to='/login'
-              className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0"
-              href="#"
-            >
-              Log In
-            </Link>
+            {user ? (
+              <button onClick={handleLogout} className="btn btn-sm">
+                Logout
+              </button>
+            ) : (
+              <Link
+                to="/login"
+                className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0"
+              >
+                Log In
+              </Link>
+            )}
           </div>
-
-         
         </div>
       </div>
     </nav>
