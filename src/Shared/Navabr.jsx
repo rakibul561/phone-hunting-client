@@ -18,11 +18,15 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="relative bg-white shadow dark:bg-gray-800">
+    <nav className="relative bg-[#55BFC1] mb-1 shadow dark:bg-gray-800">
       <div className="container px-6 py-4 mx-auto md:flex md:justify-between md:items-center">
         <div className="flex items-center justify-between">
           <a href="#">
-            <h2>PhoneShop</h2>
+          <span
+  class="text-2xl font-bold bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 text-transparent bg-clip-text animate-gradient"
+    >
+     PhoneShop
+    </span>
           </a>
 
           {/* Mobile menu button */}
@@ -89,10 +93,10 @@ const Navbar = () => {
               Product
             </Link>
             <Link
-              to="/love"
+              to="/mybooking"
               className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0"
             >
-              Wishlist
+              My Booking
             </Link>
             <Link
               to="/contact"
@@ -101,7 +105,7 @@ const Navbar = () => {
               Contact
             </Link>
             {user ? (
-              <button onClick={handleLogout} className="btn btn-sm">
+              <button onClick={handleLogout} className="btn bg-[#55BFC1] btn-sm">
                 Logout
               </button>
             ) : (

@@ -1,8 +1,9 @@
 import React from 'react';
 import Rating from 'react-rating';
+import { Link } from 'react-router-dom';
 
 const ServiceCart = ({ service }) => {
-    const { brand, phone_name, image, rating } = service;
+    const { brand, phone_name, image, rating , _id} = service;
     
     return (
         <div className=''>
@@ -22,7 +23,8 @@ const ServiceCart = ({ service }) => {
                         </div>
                     </div>
                 </div>
-                <button type="button" className="flex btn items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md">See More</button>
+                <Link to={`/details/${_id}`}
+                 type="button" className="flex bg-[#55BFC1] text-white btn items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md">See More</Link>
             </div>
         </div>
     );

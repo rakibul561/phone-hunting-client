@@ -12,11 +12,13 @@ import Main from './Layout/Main';
 import Home from './Component/Home/Home';
 
 import Product from './Component/page/Product';
-import Wishlist from './Component/page/Wishlist';
 import Login from './Component/page/Login/Login';
 import SignUp from './Component/page/Login/Singup';
 import AuthProvider from './Provider/AuthProvider';
 import Contact from './Component/page/contact';
+import CartDetails from './Cart/CartDetails';
+import Checkout from './Cart/Checkout';
+import MyOder from './Component/page/Mybooking';
 
 
 
@@ -38,8 +40,17 @@ const router = createBrowserRouter([
         element:<Product></Product>
       },
       {
-        path:'/love',
-        element:<Wishlist></Wishlist>
+        path: '/checkout/:id',
+        element:<Checkout></Checkout>,
+        loader: ({ params }) => fetch(`http://localhost:5000/services/${params.id}`)
+      },
+      {
+        path: '/details/:id',
+        element:<CartDetails></CartDetails>
+      },
+      {
+         path:'/mybooking',
+         element:<MyOder></MyOder>
       },
       {
         path:'/login',
