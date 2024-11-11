@@ -81,12 +81,7 @@ const Navbar = () => {
             >
               Home
             </Link>
-            <Link
-              to="/about"
-              className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0"
-            >
-              About
-            </Link>
+         
             <Link
               to="/product"
               className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0"
@@ -98,6 +93,12 @@ const Navbar = () => {
               className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0"
             >
               Wishlist
+            </Link>
+            <Link
+              to="/contact"
+              className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0"
+            >
+              Contact
             </Link>
             {user ? (
               <button onClick={handleLogout} className="btn btn-sm">

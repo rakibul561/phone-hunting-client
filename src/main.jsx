@@ -10,12 +10,14 @@ import {
 } from "react-router-dom";
 import Main from './Layout/Main';
 import Home from './Component/Home/Home';
-import About from './Component/page/about';
+
 import Product from './Component/page/Product';
 import Wishlist from './Component/page/Wishlist';
 import Login from './Component/page/Login/Login';
 import SignUp from './Component/page/Login/Singup';
 import AuthProvider from './Provider/AuthProvider';
+import Contact from './Component/page/contact';
+
 
 
 const router = createBrowserRouter([
@@ -28,8 +30,8 @@ const router = createBrowserRouter([
         element:<Home></Home>
       },
       {
-        path:'/about',
-        element:<About></About>
+        path:'/contact',
+        element:<Contact></Contact>
       },
       {
         path:'/product',

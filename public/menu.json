@@ -1,0 +1,165 @@
+[
+    {
+      "brand": "Samsung",
+      "phone_name": "Galaxy S22 5G",
+      "slug": "samsung_galaxy_s22_5g-11253",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s22-5g.jpg",
+      "description": "The Samsung Galaxy S22 5G features a sleek design, powerful performance, and an excellent camera setup. It's a flagship device with top-tier features, offering an immersive display and fast processing speed.",
+      "rating": 4.5
+    },
+    {
+      "brand": "Samsung",
+      "phone_name": "Galaxy Tab S8+",
+      "slug": "samsung_galaxy_tab_s8+-11342",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-tab-s8-plus.jpg",
+      "description": "The Galaxy Tab S8+ offers a large, vibrant display and solid performance, making it ideal for work and play. Its fast processing power is perfect for gaming and multitasking.",
+      "rating": 4.6
+    },
+    {
+      "brand": "Samsung",
+      "phone_name": "Galaxy Tab S8 Ultra",
+      "slug": "samsung_galaxy_tab_s8_ultra-11274",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-tab-s8-ultra.jpg",
+      "description": "With a massive 14.6-inch screen, the Galaxy Tab S8 Ultra is designed for those who need maximum screen real estate for productivity and entertainment. It offers top performance with a large battery life.",
+      "rating": 4.7
+    },
+    {
+      "brand": "Samsung",
+      "phone_name": "Galaxy S22+ 5G",
+      "slug": "samsung_galaxy_s22+_5g-11252",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s22-plus-5g.jpg",
+      "description": "The Samsung Galaxy S22+ 5G boasts a larger screen and impressive camera upgrades. It's a great option for users who want a premium experience with all the latest technology.",
+      "rating": 4.5
+    },
+    {
+      "brand": "Samsung",
+      "phone_name": "Galaxy Tab S8",
+      "slug": "samsung_galaxy_tab_s8-11343",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-tab-s8.jpg",
+      "description": "The Galaxy Tab S8 is a compact version of the S8+ and Ultra but still packs a punch with its performance. It's perfect for people looking for a smaller tablet with excellent specifications.",
+      "rating": 4.4
+    },
+    {
+      "brand": "Apple",
+      "phone_name": "iPhone 14 Pro",
+      "slug": "apple_iphone_14_pro-11253",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14-pro.jpg",
+      "description": "The iPhone 14 Pro offers a stunning OLED display and a powerful A16 Bionic chip. It features a pro camera system that elevates your photography and video experience.",
+      "rating": 4.8
+    },
+    {
+      "brand": "Apple",
+      "phone_name": "iPhone 13",
+      "slug": "apple_iphone_13-11254",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13.jpg",
+      "description": "iPhone 13 combines excellent performance, camera capabilities, and design in a well-rounded package. It features a durable build, long-lasting battery, and fast charging.",
+      "rating": 4.6
+    },
+    {
+      "brand": "Apple",
+      "phone_name": "iPhone 12 Mini",
+      "slug": "apple_iphone_12_mini-11255",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-mini.jpg",
+      "description": "The iPhone 12 Mini is compact yet powerful, featuring a Super Retina display and A14 Bionic chip. It offers 5G connectivity and excellent camera quality in a small package.",
+      "rating": 4.4
+    },
+    {
+      "brand": "Apple",
+      "phone_name": "iPhone SE 2022",
+      "slug": "apple_iphone_se_2022-11256",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-se-2022.jpg",
+      "description": "The iPhone SE 2022 brings the power of the A15 Bionic chip in a compact design. It's the most affordable iPhone with fast performance and excellent camera capabilities.",
+      "rating": 4.5
+    },
+    
+    {
+      "brand": "OnePlus",
+      "phone_name": "OnePlus 9 Pro",
+      "slug": "oneplus_9_pro-11258",
+      "image": "https://i.ibb.co.com/6PmpR0w/onplus4.jpg",
+      "description": "The OnePlus 9 Pro features a Fluid AMOLED display, Snapdragon 888, and a Hasselblad camera system. It's known for its high-quality build and smooth software experience.",
+      "rating": 4.6
+    },
+    {
+      "brand": "OnePlus",
+      "phone_name": "OnePlus 9",
+      "slug": "oneplus_9-11259",
+      "image": "https://i.ibb.co.com/QPYVv9H/oneplus3.jpg",
+      "description": "OnePlus 9 offers a balanced experience with a high-quality camera, AMOLED display, and fast charging. It’s designed to be a solid flagship with a competitive price.",
+      "rating": 4.4
+    },
+    {
+      "brand": "OnePlus",
+      "phone_name": "OnePlus 8T",
+      "slug": "oneplus_8t-11260",
+      "image": "https://i.ibb.co.com/QvsN2Qt/onplus2.jpg",
+      "description": "The OnePlus 8T is a flagship with a 120Hz AMOLED display, Snapdragon 865, and Warp Charge 65 for ultra-fast charging. It offers great value for money with its premium features.",
+      "rating": 4.5
+    },
+    {
+      "brand": "OnePlus",
+      "phone_name": "OnePlus Nord 2",
+      "slug": "oneplus_nord_2-11261",
+      "image": "https://i.ibb.co.com/TYbWDwf/onplus1.jpg",
+      "description": "OnePlus Nord 2 offers a great balance of performance, design, and affordability. It features a solid AMOLED display, MediaTek Dimensity 1200-AI chipset, and fast charging.",
+      "rating": 4.3
+    },
+    {
+      "brand": "OnePlus",
+      "phone_name": "OnePlus Nord CE 5G",
+      "slug": "oneplus_nord_ce_5g-11262",
+      "image": "https://i.ibb.co.com/QbBZrP4/onplus.jpg",
+      "description": "The OnePlus Nord CE 5G offers a solid 5G experience with an AMOLED display and a Snapdragon 750G chipset. It’s a great mid-range option for those looking for value and performance.",
+      "rating": 4.2
+    },
+    {
+      "brand": "Google",
+      "phone_name": "Pixel 6 Pro",
+      "slug": "google_pixel_6_pro-11263",
+      "image": "https://i.ibb.co.com/yVd5zPv/pixel1.jpg",
+      "description": "Google Pixel 6 Pro features a stunning AMOLED display, Google’s custom Tensor chip, and an excellent camera system that excels in low-light conditions.",
+      "rating": 4.7
+    },
+    {
+      "brand": "Google",
+      "phone_name": "Pixel 5",
+      "slug": "google_pixel_5-11264",
+      "image": "https://i.ibb.co.com/bFk2Wkq/pixel.jpg",
+      "description": "The Pixel 5 offers smooth performance with a Snapdragon 765G chip, excellent software, and a clean Android experience. The camera is one of the best for the price.",
+      "rating": 4.6
+    },
+  
+    {
+      "brand": "Google",
+      "phone_name": "Pixel 3a",
+      "slug": "google_pixel_3a-11267",
+      "image": "https://i.ibb.co.com/h7Q7tDc/pixwl.jpg",
+      "description": "The Pixel 3a offers the same camera excellence as its premium siblings at a fraction of the price. It’s perfect for those who want a Pixel experience without the high cost.",
+      "rating": 4.3
+    },
+    {
+        "brand": "Redmi",
+        "phone_name": "Redmi G100",
+        "slug": "redmi_g100-11268",
+        "image": "https://i.ibb.co.com/8r1sGTb/redmi2.jpg",
+        "description": "The Redmi G100 offers reliable performance with a 6.5-inch display and a solid 4000mAh battery. It's a budget-friendly option with great value.",
+        "rating": 4.2
+      },
+      {
+        "brand": "Redmi",
+        "phone_name": "Redmi X500",
+        "slug": "redmi_x500-11269",
+        "image": "https://i.ibb.co.com/tDHrWm9/redmi1.jpg",
+        "description": "The Redmi X500 comes with a 5.8-inch screen and impressive camera quality for its price range. It’s ideal for users who need basic functionality at an affordable price.",
+        "rating": 4.0
+      },
+      {
+        "brand": "Redmi",
+        "phone_name": "Redmi Z3",
+        "slug": "redmi_z3-11272",
+        "image": "https://i.ibb.co.com/ZK6G55q/redmi.jpg",
+        "description": "The Redmi Z3 has a vibrant 6.4-inch screen and a 48MP camera setup. It is ideal for users who want a mid-range phone with great photography capabilities.",
+        "rating": 4.6
+      }
+  ]
+  
