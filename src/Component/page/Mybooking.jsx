@@ -11,7 +11,7 @@ const MyOder = () => {
     const [booking, setBookings] = useState();
     console.log(booking);
 
-    const url = `http://localhost:5000/bookings/?email=${user?.email}`
+    const url = `https://phone-hunting-server.vercel.app/bookings/?email=${user?.email}`
 
     useEffect(() => {
         fetch(url)

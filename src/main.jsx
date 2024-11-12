@@ -38,12 +38,12 @@ const router = createBrowserRouter([
       {
         path:'/product',
         element:<Product></Product>,
-        loader: () => fetch('http://localhost:5000/services')
+        loader: () => fetch('https://phone-hunting-server.vercel.app/services')
       },
       {
         path: '/checkout/:id',
         element:<Checkout></Checkout>,
-        loader: ({ params }) => fetch(`http://localhost:5000/services/${params.id}`)
+        loader: ({ params }) => fetch(`https://phone-hunting-server.vercel.app/services/${params.id}`)
       },
       {
         path: '/details/:id',
