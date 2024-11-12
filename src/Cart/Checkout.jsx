@@ -92,7 +92,7 @@ const Checkout = () => {
                         </div>
                     </div>
                     <div className="form-control mt-6">
-                        <input className="btn bg-[#FF3811] btn-block" type="submit" value=" confrom Bookings" />
+                        <input className="btn bg-[#55BFC1] btn-block" type="submit" value=" confrom Bookings" />
                     </div>
                 </form>
             </div>

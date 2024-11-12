@@ -42,7 +42,7 @@ const CartDetails = () => {
                             <Link
                                  to={`/checkout/${_id}`}
                           
-                          type="button" className="px-12 btn bg-red-600 text-white py-3 font-semibold ">Book Now</Link>
+                          type="button" className="px-12 btn bg-[#55BFC1] text-white py-3 font-semibold ">Book Now</Link>
                         </div>
                     </div>
 
